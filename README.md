@@ -5,7 +5,10 @@ This program was created at a short high school Hackathon.  It has the ability t
 
 This program only works on Windows (tested on XP, Vista, 7, 8.1, and 10)
 
-##Requirements
+## Requirements
+* javac in command line
+* Java 8 and above
+* A program that can open spreadsheets
 
 ### Using the Binaries
 Just extract the folder and run AutoGradr.jar.

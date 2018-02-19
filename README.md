@@ -1,5 +1,6 @@
 # AutoGradr
 This program was created at a short high school Hackathon.  It has the ability to quickly grade Java CS labs through a virtual environment.
+![AutoGradr](https://s17.postimg.org/r3oyqbsrz/The_Auto_Gradr_Logo.png)
 
 ## Getting Started
 

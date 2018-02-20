@@ -66,7 +66,7 @@ public class GUI
         JScrollPane scrollPane = new JScrollPane(panel);
         scrollPane.setPreferredSize(new Dimension( 500, 500 ));
         scrollPane.setVerticalScrollBarPolicy(ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS);        
-        icon = new ImageIcon("/TheAutoGradrLogo.png");
+        icon = new ImageIcon("TheAutoGradrLogo.png");
         int n = JOptionPane.showOptionDialog(null, scrollPane, "AUTOGRADR", JOptionPane.YES_NO_CANCEL_OPTION, JOptionPane.QUESTION_MESSAGE, icon, options, options[0]);
         if(n == 0)
         {

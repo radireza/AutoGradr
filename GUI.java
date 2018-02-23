@@ -15,6 +15,7 @@ import javax.swing.ScrollPaneConstants;
 import javax.swing.SwingConstants;
 import java.awt.Dimension;
 import java.io.File;
+import java.awt.Color;
 
 public class GUI
 {
@@ -22,8 +23,11 @@ public class GUI
     {
         JWindow window = new JWindow();
         ImageIcon icon = new ImageIcon("TheAutoGradrLogo.png");
-        window.getContentPane().add(new JLabel("", icon, SwingConstants.CENTER));
+        ImageIcon splash = new ImageIcon("splash.png");
+        window.getContentPane().add(new JLabel("", splash, SwingConstants.CENTER));
         window.setBounds(600, 300, 140, 130);
+        window.setLocationRelativeTo(null);
+        window.setBackground(new Color(0, 0, 0, 0));
         window.setVisible(true);
         try 
         {
